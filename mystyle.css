@@ -1,0 +1,195 @@
+
+body {
+    background-color: rgb(164, 198, 209);
+    
+    background-attachment:initial;
+   background-blend-mode:soft-light;
+   background-origin: content-box;
+   backface-visibility: inherit;
+    background-size: 25%;
+    background-position-x: 20mm;
+    background-position-y: 100mm;
+    background-origin: inherit;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(53, 53, 163);
+    margin-left: 0px;
+    font-family: monospace;
+    font-size:40pt;
+    color: rgb(26, 38, 71);
+    background-image: url(C:\Users\cherr\OneDrive\Pictures\duke6.jpg);
+  }
+  h2 {
+    text-align: left;
+    color: rgb(43, 43, 126);
+    margin-left: 10px;
+    font-family: monospace;
+    color: rgb(57, 50, 97);
+    font-size:20pt;
+  }  
+  h3 {
+    text-align: left;
+    color: rgb(43, 126, 54);
+    margin-left: 25px;
+    font-family: monospace;
+    color: rgb(9, 42, 104);
+    font-size:15pt;
+
+  }
+  ul {
+    border-radius: 5px;
+    color: rgb(236, 235, 245);
+    margin-left: 25px;
+    font-family: monospace;
+    font-size: large;
+    font-style: oblique;
+   
+  }
+ li {
+    border-radius: 100px;
+
+    color: rgb(16, 9, 80);
+    margin-left: 5px;
+    font-family: monospace;
+    font-size: large;
+    font-style: oblique;
+  }
+ p {
+  text-align: left;  
+  border-radius: 10px;
+
+    color: rgb(9, 2, 31);
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+   
+  }
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 5px solid rgb(9, 154, 238);
+  background-color: #79abe4;
+  align-items:center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 4px 5px;
+  transition: 0.3s;
+  align-items:center;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(76, 142, 228);
+  align-items:center;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:  rgb(76, 142, 228);
+  align-items:center;
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 4px 5px;
+  border: 5px solid rgb(76, 142, 228);
+  border-top: none;
+  align-items:center;
+}
+
+
+/* Style the tab */
+.tab2 {
+  overflow: hidden;
+  border: 5px solid rgb(58, 40, 143);
+  background-color: #808fe4;
+  align-items:center;
+}
+/* Style the buttons that are used to open the tab content */
+.tab2 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 3px 4px;
+  transition: 0.3s;
+  align-items:center;
+}
+* Change background color of buttons on hover */
+.tab2 button:hover {
+  background-color: rgb(20, 169, 219);
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+  background-color: rgb(76, 142, 228);
+}
+
+/* Style the tab content */
+.tabconten2 {
+  display: none;
+  padding: 4px 5px;
+  border: 5px solid  rgb(215, 217, 219);
+  border-top: none;
+}
+/* Style the header */
+.header {
+  padding: 1px 16px;
+  background:  rgb(76, 142, 228);
+    color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+/* Style the header */
+.header2 {
+  padding: 1px 16px;
+  background:  rgb(76, 142, 228);
+    color: #f1f1f1;
+}
+
+/* Page content */
+.content2 {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky2 {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky2 + .content2 {
+  padding-top: 102px;
+}
