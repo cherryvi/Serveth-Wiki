@@ -1,85 +1,119 @@
 
-body {
-    background-color: rgb(164, 198, 209);
-    
-    background-attachment:initial;
-   background-blend-mode:soft-light;
-   background-origin: content-box;
-   backface-visibility: inherit;
+
+   head {
+    text-align: center;
+    color: rgb(53, 53, 163);
+    margin-left: 10px;
+    font-family: monospace;
+    font-size:40pt;
+    color: rgb(177, 182, 196);
+    background-attachment:inherit;
+    padding:0mm;
+    float: center; 
+    padding: 10px;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(76, 142, 228);
+    margin-left: 10px;
+    font-family: monospace;
+    font-size:40pt;
+    color: rgb(221, 224, 233);
+    background-attachment:inherit;
+    align-items:center;
+    float: center; 
+    padding: 1px;
+  }
+
+  h2 {
+    text-align: center;
+    color: rgb(53, 53, 163);
+    margin-left: 10px;
+    font-family: monospace;
+    font-size:20pt;
+    color: rgb(221, 224, 233);
+    background-attachment:inherit;
+    align-items:center;
+    float: center; 
+    padding: 1px;
+  }  
+  h3 {
+    text-align: center;
+    color: rgb(43, 126, 54);
+    margin-left: 10px;
+    font-family: monospace;
+    color: rgb(221, 224, 233);
+    font-size:15pt;
+    align-items:center;
+  }
+  body { 
     background-size: 25%;
     background-position-x: 20mm;
     background-position-y: 100mm;
-    background-origin: inherit;
-  }
-  
-  h1 {
-    text-align: center;
-    color: rgb(53, 53, 163);
-    margin-left: 0px;
-    font-family: monospace;
-    font-size:40pt;
-    color: rgb(26, 38, 71);
-    background-image: url(C:\Users\cherr\OneDrive\Pictures\duke6.jpg);
-  }
-  h2 {
-    text-align: left;
-    color: rgb(43, 43, 126);
-    margin-left: 10px;
-    font-family: monospace;
-    color: rgb(57, 50, 97);
-    font-size:20pt;
-  }  
-  h3 {
-    text-align: left;
-    color: rgb(43, 126, 54);
-    margin-left: 25px;
-    font-family: monospace;
-    color: rgb(9, 42, 104);
-    font-size:15pt;
-
+    color: rgb(221, 224, 233);
+    align-items:center;
   }
   ul {
     border-radius: 5px;
     color: rgb(236, 235, 245);
-    margin-left: 25px;
+    margin-left: 10px;
     font-family: monospace;
     font-size: large;
     font-style: oblique;
-   
+    color: rgb(221, 224, 233);
+    align-items:center;
   }
  li {
     border-radius: 100px;
 
     color: rgb(16, 9, 80);
-    margin-left: 5px;
+    margin-left: 10px;
     font-family: monospace;
     font-size: large;
     font-style: oblique;
+    color: rgb(221, 224, 233);
+    align-items:center;
   }
  p {
-  text-align: left;  
-  border-radius: 10px;
-
-    color: rgb(9, 2, 31);
-    margin-left: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;
-   
-  }
+color: rgb(236, 235, 245);
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: large;
+    font-style: oblique;
+    color: rgb(221, 224, 233);
+    align-items:center;
+ }
+  
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 5px solid rgb(9, 154, 238);
-  background-color: #79abe4;
+  border: 10px solid rgb(236, 235, 245);
+  background-color: rgb(236, 235, 245);
+  forced-color-adjust:inherit;
   align-items:center;
+}
+.tab2 {
+  overflow: hidden;
+  border: 10px solid rgb(236, 235, 245);
+  background-color: rgb(236, 235, 245);
+  forced-color-adjust:inherit;
+  align-items: center;
+  
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
+  background-color:rgb(76, 142, 228);
+  float: center;
+  cursor: pointer;
+  padding: 4px 5px;
+  transition: 0.3s;
+  align-items:center;
+  
+}
+.tab2 button {
+  background-color: rgb(103, 209, 191);
+  float: center;
   cursor: pointer;
   padding: 4px 5px;
   transition: 0.3s;
@@ -89,107 +123,53 @@ body {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
+  background-color: rgb(103, 209, 191);
+  align-items:center;
+}
+.tab2 button:hover {
   background-color: rgb(76, 142, 228);
   align-items:center;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color:  rgb(76, 142, 228);
+  background-color:   rgb(103, 209, 191);
   align-items:center;
-
+}
+.tab2 button.active {
+  background-color: rgb(76, 142, 228);
+  align-items:center;
+}
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 4px 5px;
-  border: 5px solid rgb(76, 142, 228);
+  border: 1px solid  rgb(103, 209, 191);
   border-top: none;
   align-items:center;
-}
-
-
-/* Style the tab */
-.tab2 {
-  overflow: hidden;
-  border: 5px solid rgb(58, 40, 143);
-  background-color: #808fe4;
-  align-items:center;
-}
-/* Style the buttons that are used to open the tab content */
-.tab2 button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 3px 4px;
-  transition: 0.3s;
-  align-items:center;
-}
-* Change background color of buttons on hover */
-.tab2 button:hover {
-  background-color: rgb(20, 169, 219);
-}
-
-/* Create an active/current tablink class */
-.tab2 button.active {
-  background-color: rgb(76, 142, 228);
+  background-color:  rgb(76, 142, 228);
 }
 
 /* Style the tab content */
-.tabconten2 {
+.tabcontent2 {
   display: none;
   padding: 4px 5px;
-  border: 5px solid  rgb(215, 217, 219);
+  border: 1px solid  rgb(103, 209, 191);
   border-top: none;
+  align-items:center;
+  background-color:  rgb(76, 142, 228);
+
 }
+
+
 /* Style the header */
 .header {
-  padding: 1px 16px;
-  background:  rgb(76, 142, 228);
+  padding: 10px 10px;
+  background-color:  rgb(76, 142, 228);
     color: #f1f1f1;
 }
 
 /* Page content */
 .content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
-}
-
-
-
-
-/* Style the header */
-.header2 {
-  padding: 1px 16px;
-  background:  rgb(76, 142, 228);
-    color: #f1f1f1;
-}
-
-/* Page content */
-.content2 {
-  padding: 16px;
-}
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky2 {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky2 + .content2 {
-  padding-top: 102px;
+  padding: 10px;
 }
