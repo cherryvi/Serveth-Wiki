@@ -3,8 +3,7 @@
   <title>"Serveth Support Links and Tools"></title>
   <div class="header" id="myHeader">
   <header><h1>Serveth Support Links and Tools</h1>
-   
-  
+    
     </div>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="mystyle.css" >
@@ -12,9 +11,14 @@
 
   </head>
   <body>
+    <p>Current Date and Time is <span id='date-time'></span>.</p>
+
+    <button onclick="window.close();">Exit</button>
+
   <table>
   <h2>Main Menu</h2>
    
+
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Announcement')">Announcement</button>
     <button class="tablinks" onclick="openCity(event, 'Reminders')">Reminders</button>
@@ -30,6 +34,7 @@
     <button class="tablinks" onclick="openCity(event, 'Client Links')">Client Links</button>
     <button class="tablinks" onclick="openCity(event, 'Ethereum Wallets')">Ethereum Wallets</button>
     <button class="tablinks" onclick="openCity(event, 'Announcement')">Back to Main</button>
+
   </div>
 
   <div class="tab2">
@@ -44,7 +49,10 @@
     </div>
   
     
-    
+
+
+      
+
 
         <div id="Announcement" class="tabcontent">
           <h2>Announcement!</h2>
@@ -404,16 +412,16 @@
                 <ul>
                   <li><a href="https://help.gnosis-safe.io/en/articles/3956433-how-to-use-the-address-book" target="_blank">Gnosis Safe Address Book</a></li>
                   <li><a href="https://help.gnosis-safe.io/en/articles/5299068-address-book-export-and-import" target="_blank">Address book export and import</a></li>         
-                <li><a href="https://help.gnosis-safe.io/en/articles/4022022-what-are-safe-apps" target="_blank">What are Safe Apps?</a></li>
-                <li><a href="https://help.gnosis-safe.io/en/articles/4022030-add-a-custom-safe-app" target="_blank">Add a custom Safe App </a></li>
-                <li><a href="https://help.gnosis-safe.io/en/collections/794057-security" target="_blank">Gnosis Safe Security</a></li>
-                <li><a href="hhttps://help.gnosis-safe.io/en/collections/2171002-problems" target="_blank">Gnosis Safe Problems</a></li>
-                <li><a href="https://help.gnosis-safe.io/en/articles/4680071-transaction-builder" target="_blank">Transaction Builder</a></li>
-                <li><a href="https://help.gnosis-safe.io/en/articles/4356253-walletconnect-safe-app" target="_blank">WalletConnect Safe App</a></li>
-                <li><a href="https://help.gnosis-safe.io/en/articles/4820197-how-to-participate-in-a-snapshot-poll" target="_blank">How to participate in a Snapshot poll</a></li>
-                <li><a href="https://help.gnosis-safe.io/en/articles/4680071-transaction-builder" target="_blank">Transaction Builder</a></li>
-                <li><a href="https://help.gnosis-safe.io/en/articles/4311039-renew-an-ens-name" target="_blank">Renew an ENS Name</a></li>
-              </ul>
+                  <li><a href="https://help.gnosis-safe.io/en/articles/4022022-what-are-safe-apps" target="_blank">What are Safe Apps?</a></li>
+                  <li><a href="https://help.gnosis-safe.io/en/articles/4022030-add-a-custom-safe-app" target="_blank">Add a custom Safe App </a></li>
+                  <li><a href="https://help.gnosis-safe.io/en/collections/794057-security" target="_blank">Gnosis Safe Security</a></li>
+                  <li><a href="hhttps://help.gnosis-safe.io/en/collections/2171002-problems" target="_blank">Gnosis Safe Problems</a></li>
+                  <li><a href="https://help.gnosis-safe.io/en/articles/4680071-transaction-builder" target="_blank">Transaction Builder</a></li>
+                  <li><a href="https://help.gnosis-safe.io/en/articles/4356253-walletconnect-safe-app" target="_blank">WalletConnect Safe App</a></li>
+                  <li><a href="https://help.gnosis-safe.io/en/articles/4820197-how-to-participate-in-a-snapshot-poll" target="_blank">How to participate in a Snapshot poll</a></li>
+                  <li><a href="https://help.gnosis-safe.io/en/articles/4680071-transaction-builder" target="_blank">Transaction Builder</a></li>
+                  <li><a href="https://help.gnosis-safe.io/en/articles/4311039-renew-an-ens-name" target="_blank">Renew an ENS Name</a></li>
+                </ul>
               </ul>
         </ul>
         </div>  
@@ -466,7 +474,11 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-</script>
-   
-</ul>
+
+var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+
+  
+  </script>
+
 </body>
